@@ -1,7 +1,7 @@
 open class Pesawat{
     val sayap : Int = 2
 
-    fun terbang(){
+    open fun terbang(){
         println("terbang...")
     }
     fun mendarat(){
@@ -11,7 +11,7 @@ open class Pesawat{
 
 class PesawatTempur : Pesawat(){
     var Rudal : Int =4
-    fun Manuver(){
+    fun manuver(){
         println("Manuver...")
     }
 }
@@ -27,5 +27,5 @@ fun main(args: Array<String>) {
     F16.mendarat()
 
     //boeing.Manuver()
-    F16.Manuver()
+    F16.manuver()
 }

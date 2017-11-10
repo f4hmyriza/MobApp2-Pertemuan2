@@ -9,7 +9,7 @@ open class Pesawat2{
     }
 }
 
-class PesawatTempur : Pesawat(){
+class PesawatTempur2 : Pesawat(){
     var Rudal : Int =4
 
     fun Manuver(){
@@ -22,8 +22,8 @@ class PesawatTempur : Pesawat(){
 }
 
 fun main(args: Array<String>) {
-    var boeing = Pesawat()
-    var F16 = PesawatTempur()
+    var boeing = Pesawat2()
+    var F16 = PesawatTempur2()
 
     boeing.terbang()
     F16.terbang()
